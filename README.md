@@ -42,7 +42,7 @@ The 3D printed chassis has groves for inserting the tabs from battery holders th
 
 ## The Screen
 
-The Lisperati1000 uses an ultrawide LCD screen, available [here](https://www.amazon.com/gp/product/B086HK9FKQ). You will need the included controller board, as well. Simply wedge the display into the chassis.
+The Lisperati1000 uses an ultrawide LCD screen, available [here](https://www.amazon.com/gp/product/B086HK9FKQ). You will need the included controller board, as well. Simply connect the included controller board to the display, and then wedge them both into the chassis.
 
 ## The remaining components
 
@@ -53,7 +53,7 @@ After the screen has been inserted, insert the batter cells and the follwing add
 - [Locking Power Switch](https://www.amazon.com/gp/product/B07MQ86LYD)
 - A short micro usb to usb cable (to connect the video controller board to the PowerBoost)
 
-Due to the tight space constraints, you will need to construct 2 custom cables using [Adafruit's DIY cable portal](https://www.adafruit.com/category/997):
+Due to the tight space constraints, you will also need to construct 2 custom cables using [Adafruit's DIY cable portal](https://www.adafruit.com/category/997):
 
 - A 10cm ribbon HDMI mini to Right bend HDMI mini (to connect RasPi with video controller board) 
 - A 10cm ribbon micro USB to Right bend micro USB (to connect RasPi with keyboard controller)
@@ -67,7 +67,7 @@ Two components need to be soldered directly to the PowerBoost board:
 
 Here you can see the bottom of the PowerBoost, before the addition of protective heatshrink on the wiring:
 
-![boost.jpg]
+![boost.jpg](boost.jpg)
 
 The two wires on the left, soldered to the top and bottom USB pins, power the Pi Zero. The two wires on the bottom, to the GND and EN pin, connect to the power switch.
 
