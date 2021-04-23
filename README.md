@@ -9,9 +9,9 @@ _Note: These DIY instructions are provided free of charge, and we do accept any 
 
 It is best to print the chassis using a higher-temperature plastic, such as PETG or ABS. This is because PLA plastic (the most popular plastic for 3D printing) tends to deform in a year or two, if placed under stress. Also, if you ever leave your computer in a hot car, the PLA version can actually begin to melt under those conditions.
 
-![lisperati_chassis.png]lisperati_chassis.png
+![lisperati_chassis.png](lisperati_chassis.png)
 
-![case_cover.png]case_cover.png
+![case_cover.png](case_cover.png)
 
 The chassis consists of two parts, the main body and the compartment cover. Here are the STL files:
 
