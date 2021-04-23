@@ -1,6 +1,8 @@
 # Lisperati 1000 DIY Build Instructions
 _Author: Conrad Barski, CEO of Lisperati Inc._
 
+![lisperati1000.jpg](lisperati1000.jpg)
+
 In this _How To_ we're going to build a fully-working Lisperati1000 computer using 3D printed parts and off-the-shelf components. If you would, instead, like to purchase a fully-assembled Lisperati1000 with a milled aluminum chassis, please join the mailing list at [on home page](lisperaticomputers.com) to be notified when they become available for purchase.
 
 _Note: These DIY instructions are provided free of charge, and we do accept any liability for errors in the instructions. They are provided without support._
