@@ -81,6 +81,8 @@ The wires on the Pi Zero are attached as follows, again shown before the additio
 
 The components are wired together as shown in the following diagram:
 
+![diagram.png](diagram.png)
+
 To connect the keyboard to the Pi Zero, we use the ribbon USB cable and thread it through the hole to the keyboard connector, as shown here:
 
 ![keyboard.jpg](keyboard.jpg)
