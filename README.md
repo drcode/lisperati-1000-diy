@@ -9,9 +9,9 @@ _Note: These DIY instructions are provided free of charge, and we do accept any 
 
 It is best to print the chassis using a higher-temperature plastic, such as PETG or ABS. This is because PLA plastic (the most popular plastic for 3D printing) tends to deform in a year or two, if placed under stress. Also, if you ever leave your computer in a hot car, the PLA version can actually begin to melt under those conditions.
 
-![lisperati-chassis.png]lisperati-chassis.png
+![lisperati_chassis.png]lisperati_chassis.png
 
-![case-cover.png]case-cover.png
+![case_cover.png]case_cover.png
 
 The chassis consists of two parts, the main body and the compartment cover. Here are the STL files:
 
@@ -92,3 +92,33 @@ Here is what everything looks like once everything has been put together. You ca
 You will want to add heatshrink and fishtape to prevent electrical shorts: Note that the back of the LCD is electrically conductive and therefore cannot be touched by any of the circuit boards for proper functioning.
 
 ## Software Configuration
+
+This computer is definitely optimized for text entry, not a UI interface. Hence, I recommend installing a console-only version of linux. A Raspbery Pi Zero kit will usually come with an SD cards containing the NOOBS installer, which will allow you to install a console version of the Raspbian OS. If you are not presented with a Console-only option, simply install Raspbian with a UI and run `sudo raspi-config` to enable a boot directly into a console.
+
+Begin the installation by connecting the Pi Zero to a traditional HDMI monitor. Once the OS is ready, you can configure it to run properly on the ultrawide LCD. In order to drive this LCD, you will need to add the following to the bottom of `/boot/config.txt`:
+
+``
+hdmi_group=2
+hdmi_mode=87
+hdmi_drive=2
+hdmi_force_mode=1
+hdmi_timings=480 0 30 30 30 1920 0 6 6 6 0 0 0 60 0 66000000 7
+max_framebuffer_width=1920
+max_framebuffer_height=1920
+framebuffer_width=1920
+framebuffer_height=480
+display_rotate=1
+``
+
+After those changes and a reboot, Raspbian should correctly display on the ultrawide LCD.
+
+Another change you will want to make is to increase the console font size. Do this by editing `/etc/default/console-setup` to include the following:
+
+``
+FONTFACE="TerminusBold"
+FONTSIZE="16x32"
+``
+
+After that change and a reboot, the console should be using a comfortably-large font.
+
+_(Note: The Raspbian console uses color variation to indicate font boldness, causing the default console font to use a grey color by default... not pure white. Most console-based editors/etc will adjust for this, defaulting to brighter, pure white text.)_
