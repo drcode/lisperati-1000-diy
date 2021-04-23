@@ -130,3 +130,6 @@ After that change and a reboot, the console should be using a comfortably-large 
 _(Note: The Raspbian console uses color variation to indicate font boldness, causing the default console font to use a grey color by default... not pure white. Most console-based editors/etc will adjust for this, defaulting to brighter, pure white text.)_
 
 Those are all the steps necessary to build your own 3D-printed Lisperati1000 computer. Happy hacking!
+
+## License
+LGPL version 3.0.
