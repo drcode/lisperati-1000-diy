@@ -99,7 +99,7 @@ The Lisperati1000 is definitely optimized for text entry, not a UI interface. He
 
 Begin the installation by connecting the Pi Zero to a traditional HDMI monitor. Once the OS is ready, you can configure it to run properly on the ultrawide LCD. In order to drive this LCD, you will need to add the following to the bottom of `/boot/config.txt`:
 
-``
+```
 hdmi_group=2
 hdmi_mode=87
 hdmi_drive=2
@@ -110,16 +110,16 @@ max_framebuffer_height=1920
 framebuffer_width=1920
 framebuffer_height=480
 display_rotate=1
-``
+```
 
 After those changes and a reboot, Raspbian should correctly display on the ultrawide LCD.
 
 Another change you will want to make is to increase the console font size. Do this by editing `/etc/default/console-setup` to include the following:
 
-``
+```
 FONTFACE="TerminusBold"
 FONTSIZE="16x32"
-``
+```
 
 After that change and a reboot, the console should be using a comfortably-large font.
 
