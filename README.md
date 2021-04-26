@@ -30,7 +30,7 @@ The Lisperati1000 uses the keycaps, switches, and PCB of a standard Vortex Core 
 
 ![vortex.jpg](vortex.jpg)
 
-To install the keyboard into the Lisperati1000 chassis, simply remove the keycaps from the Vortex Core, which will reveal multiple screws, attaching the PCB to the case. After those screws are removed, place the PCB into the new chassis, then use M2x8 screws to attach. The correct screws are available in this [NINDEJIN screw kit](https://www.amazon.com/gp/product/B07F75DMHF). Note that due to resolution limitations, the chassis does not have screw threads, but the screws will still fit snuggly into the screw holes and will keep the keyboard in place securely.
+To install the keyboard into the Lisperati1000 chassis, simply remove the keycaps from the Vortex Core, which will reveal multiple screws, attaching the PCB to the case. After those screws are removed, place the PCB into the new chassis, then use M2x8 screws to attach. The correct screws are available in this [NINDEJIN screw kit](https://www.amazon.com/gp/product/B07F75DMHF). Note that due to resolution limitations, the chassis does not have screw threads, but the screws will still fit snugly into the screw holes and will keep the keyboard in place securely.
 
 ## The Battery
 
@@ -40,7 +40,7 @@ The Lisperati1000 uses two 18650 battery cells, placed in parallel. It is very i
 
 ![lcd.jpg](lcd.jpg)
 
-The 3D printed chassis has groves for inserting the tabs from battery holders that can be obtained by disassembling the [holders shown here](https://www.amazon.com/gp/product/B07CWKGZXW). Next, solder some wires to the holders to complete a parallel battery circuit (the same circuit configuration as found in the battery pack). You will want to use heat shrink tubing and electrical tape to fully insulate the holders.
+The 3D printed chassis has grooves for inserting the tabs from battery holders that can be obtained by disassembling the [holders shown here](https://www.amazon.com/gp/product/B07CWKGZXW). Next, solder some wires to the holders to complete a parallel battery circuit (the same circuit configuration as found in the battery pack). You will want to use heat shrink tubing and electrical tape to fully insulate the holders.
 
 ## The Screen
 
@@ -48,7 +48,7 @@ The Lisperati1000 uses an ultrawide LCD screen, available [here](https://www.ama
 
 ## The remaining components
 
-After the screen has been inserted, insert the batter cells and the following additional components, to complete the working computer:
+After the screen has been inserted, insert the battery cells and the following additional components, to complete the working computer:
 
 - [Adafruit Powerboost 1000 Charger](https://www.adafruit.com/product/2465)
 - [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) You will also need a micro SD card with an OS along with the Raspberry Pi.
